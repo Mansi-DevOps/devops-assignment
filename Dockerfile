@@ -6,3 +6,4 @@ COPY . /home/project
 RUN pip install -r requirements.txt
 EXPOSE 8000
 CMD [ "make", "run-server" ]
+
