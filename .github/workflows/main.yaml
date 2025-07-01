@@ -46,4 +46,3 @@ jobs:
         echo "${{ secrets.KUBECONFIG_DATA }}" | base64 --decode > kubeconfig.yaml
         export KUBECONFIG=$(pwd)/kubeconfig.yaml
         kubectl apply -f k8s/
-       g
